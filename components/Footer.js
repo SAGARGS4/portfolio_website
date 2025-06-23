@@ -4,7 +4,10 @@ export default function Footer() {
 			<div className="max-w-4xl mx-auto px-4 text-center text-gray-600">
 				<p>© 2025 Sagar</p>
 				<div className="mt-2">
-					<a href="#" className="mx-2 hover:text-gray-900">
+					<a
+						href="www.linkedin.com/in/sagargs04"
+						className="mx-2 hover:text-gray-900"
+					>
 						LinkedIn
 					</a>
 					<a href="#" className="mx-2 hover:text-gray-900">

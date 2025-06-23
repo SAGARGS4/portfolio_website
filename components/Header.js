@@ -37,10 +37,9 @@ export default function Header() {
 						))}
 					</h1>
 
-					{/* Contact Links */}
 					<div className="flex flex-col gap-2 text-sm sm:text-base">
 						<a
-							href="https://linkedin.com/in/sagar-gs"
+							href="https://www.linkedin.com/in/sagargs04"
 							className="flex items-center gap-2 hover:text-blue-600 transition"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -88,7 +87,6 @@ export default function Header() {
 					</div>
 				</div>
 
-				{/* Right: Profile Image */}
 				<motion.div
 					initial={{ opacity: 0, scale: 0.8 }}
 					animate={{ opacity: 1, scale: 1 }}
@@ -96,15 +94,13 @@ export default function Header() {
 					className="w-28 h-28 sm:w-32 sm:h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-gray-300 shadow-lg"
 				>
 					<img
-						src="/profile.jpg" // Place your profile.jpg in /public
+						src="/profile.jpg"
 						alt="Profile"
 						className="w-full h-full object-cover"
 					/>
 				</motion.div>
 			</div>
 
-			{/* Sticky Bottom Scrollable Icon Bar */}
-			{/* Sticky Bottom Scrollable Icon Bar */}
 			<nav
 				className="fixed bottom-2 left-1/2 -translate-x-1/2 z-50 flex w-fit max-w-[260px] overflow-x-auto bg-white dark:bg-gray-900 
 		border border-gray-200 dark:border-gray-700 rounded-full p-1 shadow-md items-center justify-between space-x-2"
@@ -122,7 +118,7 @@ export default function Header() {
 						label: "GitHub",
 					},
 					{
-						href: "https://linkedin.com/in/sagar-gs",
+						href: "https://www.linkedin.com/in/sagargs04",
 						icon: <FaLinkedin className="w-4 h-4" />,
 						label: "LinkedIn",
 					},
