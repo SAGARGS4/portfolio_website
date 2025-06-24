@@ -4,7 +4,7 @@ import About from "../components/About";
 import Experience from "../components/Experience";
 import CodeShowcase from "../components/CodeShowcase";
 import Skills from "../components/Skills";
-import Tools from "../components/Tools";
+
 import Education from "../components/Education";
 import Footer from "../components/Footer";
 

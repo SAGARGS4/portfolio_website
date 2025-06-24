@@ -48,7 +48,7 @@ export default function Header() {
 							sagar-gs
 						</a>
 						<a
-							href="https://github.com/sagarGS"
+							href="https://github.com/SAGARGS4"
 							className="flex items-center gap-2 hover:text-gray-800 transition"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -113,7 +113,7 @@ export default function Header() {
 						label: "Home",
 					},
 					{
-						href: "https://github.com/sagarGS",
+						href: "https://github.com/SAGARGS4",
 						icon: <FaGithub className="w-4 h-4" />,
 						label: "GitHub",
 					},

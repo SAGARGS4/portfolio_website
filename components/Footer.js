@@ -10,7 +10,10 @@ export default function Footer() {
 					>
 						LinkedIn
 					</a>
-					<a href="#" className="mx-2 hover:text-gray-900">
+					<a
+						href="https://github.com/SAGARGS4"
+						className="mx-2 hover:text-gray-900"
+					>
 						Github
 					</a>
 				</div>
