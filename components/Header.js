@@ -123,7 +123,7 @@ export default function Header() {
 						label: "LinkedIn",
 					},
 					{
-						href: "mailto:sagargs244@gmail.com",
+href: "mailto:sagugs492003@gmail.com",
 						icon: <MdEmail className="w-4 h-4" />,
 						label: "Email",
 					},
