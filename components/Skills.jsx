@@ -69,10 +69,7 @@ const skills = {
 			name: "VS Code",
 			icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg",
 		},
-		{
-			name: "Figma",
-			icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg",
-		},
+
 		{
 			name: "Vercel",
 			icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vercel/vercel-original.svg",
@@ -84,6 +81,10 @@ const skills = {
 		{
 			name: "Postman",
 			icon: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
+		},
+		{
+			name: "Docker",
+			icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg",
 		},
 	],
 };

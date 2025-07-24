@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function CodeShowcase() {
 	return (
 		<section className="mb-4">
@@ -11,29 +13,22 @@ export default function CodeShowcase() {
 			<div className="grid md:grid-cols-2 gap-6">
 				<div className="border rounded-lg overflow-hidden shadow-sm">
 					<img
-						src="/your-discord-clone-image-path.png"
+						src="/WealthMind.png"
 						alt="Vibe IN"
 						className="w-full h-48 object-cover"
 					/>
 					<div className="p-4">
-						<h3 className="text-xl font-medium mb-1">Discord Clone</h3>
+						<h3 className="text-xl font-medium mb-1">Wealth-Mind</h3>
 						<p className="text-gray-600 mb-2"> 2025</p>
 						<p className="mb-3">
-							Developed a feature-rich web application replicating Discord's
-							functionality, enabling user registration, friend connections, and
-							seamless communication including video conferencing.
+							Comprehensive personal finance management app with AI-powered
+							expense tracking and budget optimization. Features intelligent
+							expense categorization using Gemini AI and real-time data
+							visualization. Includes automated email notifications for budget
+							alerts and interactive financial charts.
 						</p>
 						<div className="flex flex-wrap gap-2 mb-4">
-							{[
-								"React",
-								"Redux",
-								"Node.js",
-								"Express.js",
-								"Socket.io",
-								"MongoDB",
-								"WebRTC (Simple-peer)",
-								"Mongoose",
-							].map((tech) => (
+							{["React", "Redux", "Tailwind CSS", "Next.js"].map((tech) => (
 								<span
 									key={tech}
 									className="bg-gray-100 px-3 py-1 rounded-full text-sm"
@@ -43,7 +38,7 @@ export default function CodeShowcase() {
 							))}
 						</div>
 						<a
-							href="#"
+							href="http://wealth-mind.vercel.app"
 							className="inline-block px-4 py-2 bg-black text-white rounded-full text-sm"
 						>
 							Website
@@ -52,29 +47,28 @@ export default function CodeShowcase() {
 				</div>
 
 				<div className="border rounded-lg overflow-hidden shadow-sm">
-					<img
-						src="/your-visualize-image-path.png"
-						alt="VisuAllize"
-						className="w-full h-48 object-cover"
+					<Image
+						src="/VibeIn.png"
+						alt="VibeIN"
+						width={400}
+						height={192}
+						className="w-full h-48 object-cover scale-75 transition-transform duration-300 hover:scale-100"
 					/>
 					<div className="p-4">
-						<h3 className="text-xl font-medium mb-1">VisuAllize</h3>
-						<p className="text-gray-600 mb-2">2023 - 2024</p>
+						<h3 className="text-xl font-medium mb-1">VibeIn</h3>
+						<p className="text-gray-600 mb-2">2024 - 2025</p>
 						<p className="mb-3">
-							AI-powered image manipulation app with expansion, removal,
-							recoloring, and restoration features. Includes subscription-based
-							access, secure payment integration, and image management.
+							Developed a full-stack real-time messaging application with
+							one-on-one and group chat, featuring instant text and image
+							sharing.
 						</p>
 						<div className="flex flex-wrap gap-2 mb-4">
 							{[
 								"Next.js",
-								"TypeScript",
 								"MongoDB",
 								"Cloudinary",
-								"Razorpay",
-								"Clerk",
+								"Socket.io",
 								"Tailwind CSS",
-								"Prisma",
 							].map((tech) => (
 								<span
 									key={tech}
@@ -85,7 +79,7 @@ export default function CodeShowcase() {
 							))}
 						</div>
 						<a
-							href="#"
+							href="https://github.com/SAGARGS4/VibeIn"
 							className="inline-block px-4 py-2 bg-black text-white rounded-full text-sm"
 						>
 							Website

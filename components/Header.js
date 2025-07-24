@@ -57,11 +57,11 @@ export default function Header() {
 							sagarGS
 						</a>
 						<a
-							href="mailto:sagargs244@gmail.com"
+							href="mailto:sagugs492003@gmail.com"
 							className="flex items-center gap-2 hover:text-red-500 transition"
 						>
 							<MdEmail className="text-lg" />
-							sagargs244@gmail.com
+							sagugs492003@gmail.com
 						</a>
 						<a
 							href="/Sagar_Resume.pdf"
@@ -87,7 +87,7 @@ export default function Header() {
 					</div>
 				</div>
 
-				<motion.div
+				{/* <motion.div
 					initial={{ opacity: 0, scale: 0.8 }}
 					animate={{ opacity: 1, scale: 1 }}
 					transition={{ duration: 0.5, delay: 1 }}
@@ -98,7 +98,7 @@ export default function Header() {
 						alt="Profile"
 						className="w-full h-full object-cover"
 					/>
-				</motion.div>
+				</motion.div> */}
 			</div>
 
 			<nav
