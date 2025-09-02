@@ -17,7 +17,7 @@ export default function Header() {
 			{/* Top Section: Name, Links, Profile */}
 			<div className="flex flex-col md:flex-row items-center md:items-start justify-between gap-8">
 				{/* Left: Name + Links */}
-				<div className="flex flex-col items-start text-center md:text-left gap-4">
+				<div className="flex flex-col items-start text-center md:text-left gap-4 md:order-1">
 					<h1 className="text-2xl sm:text-3xl md:text-5xl font-bold flex flex-wrap gap-[8px] justify-start">
 						Hi, I'm{" "}
 						{nameLetters.map((char, index) => (
@@ -87,18 +87,18 @@ export default function Header() {
 					</div>
 				</div>
 
-				{/* <motion.div
+				<motion.div
 					initial={{ opacity: 0, scale: 0.8 }}
 					animate={{ opacity: 1, scale: 1 }}
 					transition={{ duration: 0.5, delay: 1 }}
-					className="w-28 h-28 sm:w-32 sm:h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-gray-300 shadow-lg"
+					className="w-30 h-56 sm:w-44 sm:h-64 md:w-56 md:h-72 rounded-full overflow-hidden border-4 border-gray-300 shadow-lg md:order-2"
 				>
 					<img
-						src="/profile.jpg"
+						src="/profile.png"
 						alt="Profile"
 						className="w-full h-full object-cover"
 					/>
-				</motion.div> */}
+				</motion.div>
 			</div>
 
 			<nav
@@ -123,7 +123,7 @@ export default function Header() {
 						label: "LinkedIn",
 					},
 					{
-						href: "mailto:sagargs244@gmail.com",
+						href: "mailto:sagugs492003@gmail.com",
 						icon: <MdEmail className="w-4 h-4" />,
 						label: "Email",
 					},
