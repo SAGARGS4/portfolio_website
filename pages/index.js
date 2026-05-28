@@ -7,6 +7,7 @@ import Skills from "../components/Skills";
 
 import Education from "../components/Education";
 import Footer from "../components/Footer";
+import Chatbot from "../components/Chatbot";
 
 export default function Home() {
 	return (
@@ -19,6 +20,7 @@ export default function Home() {
 			<main className="max-w-4xl mx-auto px-4 py-8">
 				<Header />
 				<About />
+				<Experience />
 				<Skills />
 				<CodeShowcase />
 
@@ -26,6 +28,7 @@ export default function Home() {
 			</main>
 
 			<Footer />
+			<Chatbot />
 		</div>
 	);
 }

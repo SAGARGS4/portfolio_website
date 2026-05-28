@@ -15,10 +15,6 @@ const skills = {
 			name: "Python",
 			icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
 		},
-		{
-			name: "C++",
-			icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg",
-		},
 	],
 	"Front End": [
 		{
